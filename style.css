@@ -58,6 +58,7 @@ h1 {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
+  text-align:center;
 }
 
 h2 {
