@@ -52,7 +52,7 @@ h1 {
   margin-left: -3px;
   line-height: 1;
   letter-spacing: -0.04em;
-  margin-bottom: 2px;
+  margin-bottom: px;
   color: rgba(0,0,0,0.8);
   display: block;
   text-rendering: optimizeLegibility;
@@ -88,7 +88,6 @@ h3 {
     color: rgba(0,0,0,0.44);
     margin-bottom: 2px;
     display: block;
--webkit-margin-before: 1.33em;
 -webkit-margin-after: 1.33em;
 -webkit-margin-start: 0px;
 -webkit-margin-end: 0px;
@@ -96,4 +95,19 @@ word-wrap: break-word;
 text-rendering: optimizeLegibility;
 -webkit-font-smoothing: antialiased;
 
+}
+
+.header {
+  overflow:auto;
+}
+
+.header img {
+  float:left;
+  padding-top:15px;
+  padding-left:5px;
+}
+
+.header h1 {
+  float:left;
+  dislay:inline;
 }
