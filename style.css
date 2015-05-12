@@ -1,5 +1,5 @@
-#font-face {
-  font-family: "jaf-bernino-sans";
+@font-face {
+  font-family: myFont;
   src: url(bernino.woff);
 }
 
@@ -17,7 +17,7 @@ h1 {
   padding top:0;
   margin top: 12px;
   margin-bottom: 6px;
-  font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  font-family: myFont;
   font-weight: bold;
   font-syle: normal
   margin-list: -3px;
