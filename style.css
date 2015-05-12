@@ -88,6 +88,8 @@ h3 {
     color: rgba(0,0,0,0.44);
     margin-bottom: 2px;
     display: block;
+    -webkit-margin-before: -1em;
+
 -webkit-margin-after: 1.33em;
 -webkit-margin-start: 0px;
 -webkit-margin-end: 0px;
