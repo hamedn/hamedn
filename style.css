@@ -43,7 +43,7 @@ body{
   color:#444;
   padding:0 10px
 }
-
+/*
 h1 {
 
 
@@ -61,45 +61,4 @@ h1 {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
-
-h2 {
-  margin-top: -4px;
-  font-size: 26px;
-  line-height: 1.2;
-  margin-bottom: 4px;
-  font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
-  letter-spacing: -0.02em;
-  font-weight: 700;
-  font-style: normal;
-  margin-left: -1.8px;
-  color: rgba(0,0,0,0.8);
-  display: block;
-  -webkit-margin-before: 1em;
--webkit-margin-after: 1em;
--webkit-margin-start: 0px;
--webkit-margin-end: 0px;
-text-rendering: optimizeLegibility;
--webkit-font-smoothing: antialiased;
-}
-
-h3 {
-  margin-top: -2px;
-  font-size: 24px;
-  line-height: 1.2;
-  margin-bottom: 2px;
-  color: rgba(0,0,0,0.44);
-  margin-left: -1.6px;
-  font-family: myFont;
-  letter-spacing: -0.479999989271164px;
-  font-weight: 300;
-  font-style: normal;
-  margin:0px;
-  display: block;
--webkit-margin-before: 1.33em;
--webkit-margin-after: 1.33em;
--webkit-margin-start: 0px;
--webkit-margin-end: 0px;
-word-wrap: break-word;
-text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-}
+*/
