@@ -118,7 +118,7 @@
         build: function() {
             // Insert cursor
             if (this.showCursor === true) {
-                this.cursor = $("<span class=\"typed-cursor\">" + this.cursorChar + "</span>");
+                this.cursor = $("<h1 class=\"font-body typed typed-cursor\">" + this.cursorChar + "</h1>");
                 this.el.after(this.cursor);
             }
             this.init();
