@@ -40,7 +40,7 @@
 
 </head>
 
-<body class="stretched dark side-push-panel">
+<body class="stretched side-push-panel">
 
 	<div class="body-overlay"></div>
 
@@ -126,7 +126,7 @@
 
 		<!-- Header
 		============================================= -->
-		<header id="header" class="full-header transparent-header static-sticky" data-sticky-offset="full" data-sticky-offset-negative="100">
+		<header id="header" class="full-header transparent-header dark static-sticky" data-sticky-class="not-dark" data-sticky-offset="full" data-sticky-offset-negative="100">
 
 			<div id="header-wrap">
 
@@ -172,19 +172,16 @@
 
 				<div class="container center">
 					<div class="vertical-middle ignore-header">
-						<div class="emphasis-title">
-							<h1>
-								<span class="text-rotater nocolor" data-separator="|" data-rotate="fadeIn" data-speed="6000">
-									<span class="t-rotate t700 font-body opm-large-word">canvas.|different.|creative.|digital.|vision.</span>
-								</span>
-							</h1>
+						<div class="inline-block pulse animated infinite"><a id="play-hero-video" href="#" class="big-video-button bottommargin"><i class="icon-line-play"></i><i class="icon-line-pause"></i></a></div>
+						<div class="emphasis-title divcenter" style="max-width: 700px;">
+							<h1 class="t700 font-body ls1" style="font-size: 44px;">We are a Creative Media Agency with a Flare for Perfection.</h1>
 						</div>
-						<a href="#" class="button button-border button-light button-rounded" data-scrollto="#section-works" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">View our Works</a>
+						<a href="#" class="button button-border button-light button-circle" data-scrollto="#section-works" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">View our Works</a>
 					</div>
 				</div>
 
 				<div class="video-wrap">
-                    <video id="slide-video" poster="images/videos/1.jpg" preload="auto" loop muted autoplay>
+                    <video id="hero-video" poster="images/videos/1.jpg" preload="auto" loop muted>
                         <source src='images/videos/1.webm' type='video/webm' />
                         <source src='images/videos/1.mp4' type='video/mp4' />
                     </video>
@@ -194,6 +191,20 @@
 				<a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="65" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
 
 			</div>
+
+			<script>
+				$('#play-hero-video').on('click', function(e){
+                    e.preventDefault();
+
+                    if( $(this).hasClass('video-played') ) {
+                        $('#hero-video').get(0).pause();
+                    } else {
+                        $('#hero-video').get(0).play();
+                    }
+
+                    $(this).toggleClass('video-played');
+                });
+			</script>
 
 		</section><!-- #slider end -->
 
@@ -721,7 +732,7 @@
 
 					<div class="row noleftmargin norightmargin bottommargin-lg common-height">
 						<div id="headquarters-map" class="col-md-8 col-sm-6 gmap hidden-xs"></div>
-						<div class="col-md-4 col-sm-6" style="background-color: #282828;">
+						<div class="col-md-4 col-sm-6" style="background-color: #F5F5F5;">
 							<div class="col-padding max-height">
 								<h3 class="font-body t400 ls1">Our Headquarters</h3>
 

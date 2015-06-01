@@ -36,89 +36,11 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>One Page HTML5 Video | Canvas</title>
+	<title>One Page with Side Header | Canvas</title>
 
 </head>
 
-<body class="stretched dark side-push-panel">
-
-	<div class="body-overlay"></div>
-
-	<div id="side-panel" class="dark">
-
-		<div id="side-panel-trigger-close"><a href="#"><i class="icon-line-cross"></i></a></div>
-
-		<div class="side-panel-wrap">
-
-			<div class="widget widget_links clearfix">
-
-				<h4>About Canvas</h4>
-
-				<div style="font-size: 14px; line-height: 1.7;">
-					<address style="line-height: 1.7;">
-						795 Folsom Ave, Suite 600<br>
-						San Francisco, CA 94107<br>
-					</address>
-
-					<div class="clear topmargin-sm"></div>
-
-					<abbr title="Phone Number">Phone:</abbr> (91) 8547 632521<br>
-					<abbr title="Fax">Fax:</abbr> (91) 11 4752 1433<br>
-					<abbr title="Email Address">Email:</abbr> info@canvas.com
-				</div>
-
-			</div>
-
-			<div class="widget quick-contact-widget clearfix">
-
-				<h4>Connect Socially</h4>
-
-				<a href="#" class="social-icon si-small si-colored si-facebook" title="Facebook">
-					<i class="icon-facebook"></i>
-					<i class="icon-facebook"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-twitter" title="Twitter">
-					<i class="icon-twitter"></i>
-					<i class="icon-twitter"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-github" title="Github">
-					<i class="icon-github"></i>
-					<i class="icon-github"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-pinterest" title="Pinterest">
-					<i class="icon-pinterest"></i>
-					<i class="icon-pinterest"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-forrst" title="Forrst">
-					<i class="icon-forrst"></i>
-					<i class="icon-forrst"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-linkedin" title="LinkedIn">
-					<i class="icon-linkedin"></i>
-					<i class="icon-linkedin"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-gplus" title="Google Plus">
-					<i class="icon-gplus"></i>
-					<i class="icon-gplus"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-instagram" title="Instagram">
-					<i class="icon-instagram"></i>
-					<i class="icon-instagram"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-flickr" title="Flickr">
-					<i class="icon-flickr"></i>
-					<i class="icon-flickr"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-skype" title="Skype">
-					<i class="icon-skype"></i>
-					<i class="icon-skype"></i>
-				</a>
-
-			</div>
-
-		</div>
-
-	</div>
+<body class="stretched side-header">
 
 	<!-- Document Wrapper
 	============================================= -->
@@ -126,7 +48,7 @@
 
 		<!-- Header
 		============================================= -->
-		<header id="header" class="full-header transparent-header static-sticky" data-sticky-offset="full" data-sticky-offset-negative="100">
+		<header id="header" class="no-sticky">
 
 			<div id="header-wrap">
 
@@ -145,7 +67,7 @@
 					============================================= -->
 					<nav id="primary-menu">
 
-						<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+						<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="0">
 							<li><a href="#" data-href="#wrapper"><div>Home</div></a></li>
 							<li><a href="#" data-href="#section-about"><div>About</div></a></li>
 							<li><a href="#" data-href="#section-works"><div>Works</div></a></li>
@@ -154,9 +76,34 @@
 							<li><a href="#" data-href="#section-contact"><div>Contact</div></a></li>
 						</ul>
 
-						<div id="side-panel-trigger"><a href="#"><i class="icon-reorder"></i></a></div>
-
 					</nav><!-- #primary-menu end -->
+
+					<div class="clearfix visible-md visible-lg">
+                        <a href="#" class="social-icon si-small si-borderless si-facebook">
+                            <i class="icon-facebook"></i>
+                            <i class="icon-facebook"></i>
+                        </a>
+
+                        <a href="#" class="social-icon si-small si-borderless si-twitter">
+                            <i class="icon-twitter"></i>
+                            <i class="icon-twitter"></i>
+                        </a>
+
+                        <a href="#" class="social-icon si-small si-borderless si-gplus">
+                            <i class="icon-gplus"></i>
+                            <i class="icon-gplus"></i>
+                        </a>
+
+                        <a href="#" class="social-icon si-small si-borderless si-pinterest">
+                            <i class="icon-pinterest"></i>
+                            <i class="icon-pinterest"></i>
+                        </a>
+
+                        <a href="#" class="social-icon si-small si-borderless si-github">
+                            <i class="icon-github"></i>
+                            <i class="icon-github"></i>
+                        </a>
+                    </div>
 
 				</div>
 
@@ -171,7 +118,7 @@
 			<div class="full-screen force-full-screen dark section nopadding nomargin noborder ohidden">
 
 				<div class="container center">
-					<div class="vertical-middle ignore-header">
+					<div class="vertical-middle">
 						<div class="emphasis-title">
 							<h1>
 								<span class="text-rotater nocolor" data-separator="|" data-rotate="fadeIn" data-speed="6000">
@@ -191,7 +138,7 @@
                     <div class="video-overlay" style="background-color: rgba(0,0,0,0.2);"></div>
                 </div>
 
-				<a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="65" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+				<a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="0" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
 
 			</div>
 
@@ -526,7 +473,7 @@
 
 					<div class="section dark nomargin">
 						<div class="divcenter center" style="max-width: 900px;">
-							<h2 class="nobottommargin t300 ls1">Like Our Services? Get an <a href="#" data-scrollto="#template-contactform" data-offset="140" data-easing="easeInOutExpo" data-speed="1250" class="button button-border button-circle button-light button-large notopmargin nobottommargin" style="position: relative; top: -3px;">Instant Quote</a></h2>
+							<h2 class="nobottommargin t300 ls1">Like Our Services? Get an <a href="#" data-scrollto="#template-contactform" data-offset="80" data-easing="easeInOutExpo" data-speed="1250" class="button button-border button-circle button-light button-large notopmargin nobottommargin" style="position: relative; top: -3px;">Instant Quote</a></h2>
 						</div>
 					</div>
 
@@ -721,7 +668,7 @@
 
 					<div class="row noleftmargin norightmargin bottommargin-lg common-height">
 						<div id="headquarters-map" class="col-md-8 col-sm-6 gmap hidden-xs"></div>
-						<div class="col-md-4 col-sm-6" style="background-color: #282828;">
+						<div class="col-md-4 col-sm-6" style="background-color: #F5F5F5;">
 							<div class="col-padding max-height">
 								<h3 class="font-body t400 ls1">Our Headquarters</h3>
 

@@ -34,91 +34,20 @@
 	<script type="text/javascript" src="../js/jquery.js"></script>
 	<script type="text/javascript" src="../js/plugins.js"></script>
 
+	<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+    <script type="text/javascript" src="../include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="../include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="../include/rs-plugin/css/settings.css" media="screen" />
+
 	<!-- Document Title
 	============================================= -->
-	<title>One Page HTML5 Video | Canvas</title>
+	<title>One Page Revolution Slider Full Width | Canvas</title>
 
 </head>
 
-<body class="stretched dark side-push-panel">
-
-	<div class="body-overlay"></div>
-
-	<div id="side-panel" class="dark">
-
-		<div id="side-panel-trigger-close"><a href="#"><i class="icon-line-cross"></i></a></div>
-
-		<div class="side-panel-wrap">
-
-			<div class="widget widget_links clearfix">
-
-				<h4>About Canvas</h4>
-
-				<div style="font-size: 14px; line-height: 1.7;">
-					<address style="line-height: 1.7;">
-						795 Folsom Ave, Suite 600<br>
-						San Francisco, CA 94107<br>
-					</address>
-
-					<div class="clear topmargin-sm"></div>
-
-					<abbr title="Phone Number">Phone:</abbr> (91) 8547 632521<br>
-					<abbr title="Fax">Fax:</abbr> (91) 11 4752 1433<br>
-					<abbr title="Email Address">Email:</abbr> info@canvas.com
-				</div>
-
-			</div>
-
-			<div class="widget quick-contact-widget clearfix">
-
-				<h4>Connect Socially</h4>
-
-				<a href="#" class="social-icon si-small si-colored si-facebook" title="Facebook">
-					<i class="icon-facebook"></i>
-					<i class="icon-facebook"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-twitter" title="Twitter">
-					<i class="icon-twitter"></i>
-					<i class="icon-twitter"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-github" title="Github">
-					<i class="icon-github"></i>
-					<i class="icon-github"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-pinterest" title="Pinterest">
-					<i class="icon-pinterest"></i>
-					<i class="icon-pinterest"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-forrst" title="Forrst">
-					<i class="icon-forrst"></i>
-					<i class="icon-forrst"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-linkedin" title="LinkedIn">
-					<i class="icon-linkedin"></i>
-					<i class="icon-linkedin"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-gplus" title="Google Plus">
-					<i class="icon-gplus"></i>
-					<i class="icon-gplus"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-instagram" title="Instagram">
-					<i class="icon-instagram"></i>
-					<i class="icon-instagram"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-flickr" title="Flickr">
-					<i class="icon-flickr"></i>
-					<i class="icon-flickr"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-skype" title="Skype">
-					<i class="icon-skype"></i>
-					<i class="icon-skype"></i>
-				</a>
-
-			</div>
-
-		</div>
-
-	</div>
+<body class="stretched">
 
 	<!-- Document Wrapper
 	============================================= -->
@@ -126,7 +55,7 @@
 
 		<!-- Header
 		============================================= -->
-		<header id="header" class="full-header transparent-header static-sticky" data-sticky-offset="full" data-sticky-offset-negative="100">
+		<header id="header" class="full-header transparent-header dark static-sticky" data-sticky-class="not-dark" data-sticky-offset="200">
 
 			<div id="header-wrap">
 
@@ -154,8 +83,6 @@
 							<li><a href="#" data-href="#section-contact"><div>Contact</div></a></li>
 						</ul>
 
-						<div id="side-panel-trigger"><a href="#"><i class="icon-reorder"></i></a></div>
-
 					</nav><!-- #primary-menu end -->
 
 				</div>
@@ -164,38 +91,239 @@
 
 		</header><!-- #header end -->
 
-		<!-- Slider
-		============================================= -->
-		<section id="slider" class="slider-parallax full-screen force-full-screen">
+		<section id="slider" class="slider-parallax revslider-wrap clearfix">
 
-			<div class="full-screen force-full-screen dark section nopadding nomargin noborder ohidden">
+            <!--
+            #################################
+                - THEMEPUNCH BANNER -
+            #################################
+            -->
+            <div class="tp-banner-container">
+                <div class="tp-banner" >
+                    <ul>    <!-- SLIDE  -->
+                <li class="dark" data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="../images/slider/rev/ken-1-thumb.jpg" data-delay="10000"  data-saveperformance="off" data-title="Responsive Design">
+                    <!-- MAIN IMAGE -->
+                    <img src="../images/slider/rev/ken-1.jpg"  alt="kenburns1"  data-bgposition="left center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="130" data-bgfitend="100" data-bgpositionend="right center">
+                    <!-- LAYERS -->
 
-				<div class="container center">
-					<div class="vertical-middle ignore-header">
-						<div class="emphasis-title">
-							<h1>
-								<span class="text-rotater nocolor" data-separator="|" data-rotate="fadeIn" data-speed="6000">
-									<span class="t-rotate t700 font-body opm-large-word">canvas.|different.|creative.|digital.|vision.</span>
-								</span>
-							</h1>
-						</div>
-						<a href="#" class="button button-border button-light button-rounded" data-scrollto="#section-works" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">View our Works</a>
-					</div>
-				</div>
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption customin ltl tp-resizeme"
+                    data-x="338"
+                    data-y="200"
+                    data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                    data-speed="800"
+                    data-start="1000"
+                    data-easing="easeOutQuad"
+                    data-splitin="none"
+                    data-splitout="none"
+                    data-elementdelay="0.01"
+                    data-endelementdelay="0.1"
+                    data-endspeed="1000"
+                    data-endeasing="Power4.easeIn" style="z-index: 3;">
+                        <div class="emphasis-title nobottommargin">
+                            <h1><span class="t700 font-body opm-large-word nocolor">different.</span></h1>
+                        </div>
+                    </div>
 
-				<div class="video-wrap">
-                    <video id="slide-video" poster="images/videos/1.jpg" preload="auto" loop muted autoplay>
-                        <source src='images/videos/1.webm' type='video/webm' />
-                        <source src='images/videos/1.mp4' type='video/mp4' />
-                    </video>
-                    <div class="video-overlay" style="background-color: rgba(0,0,0,0.2);"></div>
-                </div>
+                    <div class="tp-caption customin ltl tp-resizeme"
+                    data-x="299"
+                    data-y="360"
+                    data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                    data-speed="800"
+                    data-start="1250"
+                    data-easing="easeOutQuad"
+                    data-splitin="none"
+                    data-splitout="none"
+                    data-elementdelay="0.01"
+                    data-endelementdelay="0.1"
+                    data-endspeed="1000"
+                    data-endeasing="Power4.easeIn" style="z-index: 3;">
+                        <p class="lead">We are a Creative Media Agency with a Flare for Perfection.</p>
+                    </div>
 
-				<a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="65" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+                    <div class="tp-caption customin ltl tp-resizeme"
+                    data-x="470"
+                    data-y="450"
+                    data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                    data-speed="800"
+                    data-start="1550"
+                    data-easing="easeOutQuad"
+                    data-splitin="none"
+                    data-splitout="none"
+                    data-elementdelay="0.01"
+                    data-endelementdelay="0.1"
+                    data-endspeed="1000"
+                    data-endeasing="Power4.easeIn" style="z-index: 3;"><a href="#" class="button button-border button-light button-circle nomargin"><span>View our Works</span> <i class="icon-angle-right"></i></a></div>
 
-			</div>
+                </li>
+                <!-- SLIDE  -->
+                <li data-transition="slideup" data-slotamount="1" data-masterspeed="1500" data-thumb="../images/slider/rev/ken-2-thumb.jpg" data-delay="10000"  data-saveperformance="off"  data-title="Unlimited Possibilities">
+                    <!-- MAIN IMAGE -->
+                    <img src="../images/slider/rev/ken-2.jpg"  alt="kenburns6"  data-bgposition="center bottom" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="120" data-bgpositionend="center top">
+                    <!-- LAYERS -->
 
-		</section><!-- #slider end -->
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption customin ltl tp-resizeme"
+                    data-x="352"
+                    data-y="200"
+                    data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                    data-speed="800"
+                    data-start="1000"
+                    data-easing="easeOutQuad"
+                    data-splitin="none"
+                    data-splitout="none"
+                    data-elementdelay="0.01"
+                    data-endelementdelay="0.1"
+                    data-endspeed="1000"
+                    data-endeasing="Power4.easeIn" style="z-index: 3;">
+                        <div class="emphasis-title nobottommargin">
+                            <h1><span class="t700 font-body opm-large-word nocolor">creative.</span></h1>
+                        </div>
+                    </div>
+
+                    <div class="tp-caption customin ltl tp-resizeme"
+                    data-x="295"
+                    data-y="360"
+                    data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                    data-speed="800"
+                    data-start="1250"
+                    data-easing="easeOutQuad"
+                    data-splitin="none"
+                    data-splitout="none"
+                    data-elementdelay="0.01"
+                    data-endelementdelay="0.1"
+                    data-endspeed="1000"
+                    data-endeasing="Power4.easeIn" style="z-index: 3;">
+                        <p class="lead">We provide Products &amp; Services that are amazingly creative.</p>
+                    </div>
+
+                    <div class="tp-caption customin ltl tp-resizeme"
+                    data-x="493"
+                    data-y="450"
+                    data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                    data-speed="800"
+                    data-start="1550"
+                    data-easing="easeOutQuad"
+                    data-splitin="none"
+                    data-splitout="none"
+                    data-elementdelay="0.01"
+                    data-endelementdelay="0.1"
+                    data-endspeed="1000"
+                    data-endeasing="Power4.easeIn" style="z-index: 3;"><a href="#" class="button button-border button-circle t500 nomargin"><span>Check Out</span> <i class="icon-angle-right"></i></a></div>
+
+                </li>
+            </ul>
+            </div>
+            </div>
+
+            <script type="text/javascript">
+
+                var tpj=jQuery;
+                tpj.noConflict();
+
+                tpj(document).ready(function() {
+
+                    var apiRevoSlider = tpj('.tp-banner').show().revolution(
+                    {
+                        dottedOverlay:"none",
+                        delay:16000,
+                        startwidth:1140,
+                        startheight:600,
+                        hideThumbs:200,
+
+                        thumbWidth:100,
+                        thumbHeight:50,
+                        thumbAmount:5,
+
+                        navigationType:"bullet",
+                        navigationArrows:"solo",
+                        navigationStyle:"preview4",
+
+                        touchenabled:"on",
+                        onHoverStop:"on",
+
+                        swipe_velocity: 0.7,
+                        swipe_min_touches: 1,
+                        swipe_max_touches: 1,
+                        drag_block_vertical: false,
+
+                                                parallax:"mouse",
+                        parallaxBgFreeze:"on",
+                        parallaxLevels:[7,4,3,2,5,4,3,2,1,0],
+
+                        keyboardNavigation:"off",
+
+                        navigationHAlign:"center",
+                        navigationVAlign:"bottom",
+                        navigationHOffset:0,
+                        navigationVOffset:20,
+
+                        soloArrowLeftHalign:"left",
+                        soloArrowLeftValign:"center",
+                        soloArrowLeftHOffset:20,
+                        soloArrowLeftVOffset:0,
+
+                        soloArrowRightHalign:"right",
+                        soloArrowRightValign:"center",
+                        soloArrowRightHOffset:20,
+                        soloArrowRightVOffset:0,
+
+                        shadow:0,
+                        fullWidth:"on",
+                        fullScreen:"off",
+
+                        spinner:"spinner4",
+
+                        stopLoop:"off",
+                        stopAfterLoops:-1,
+                        stopAtSlide:-1,
+
+                        shuffle:"off",
+
+                        autoHeight:"off",
+                        forceFullWidth:"off",
+
+
+
+                        hideThumbsOnMobile:"off",
+                        hideNavDelayOnMobile:1500,
+                        hideBulletsOnMobile:"off",
+                        hideArrowsOnMobile:"off",
+                        hideThumbsUnderResolution:0,
+
+                        hideSliderAtLimit:0,
+                        hideCaptionAtLimit:0,
+                        hideAllCaptionAtLilmit:0,
+                        startWithSlide:0,
+                        fullScreenOffsetContainer: ".header"
+                    });
+
+                    apiRevoSlider.bind("revolution.slide.onchange",function (e,data) {
+                        if( $(window).width() > 992 ) {
+                            if( $('#slider ul > li').eq(data.slideIndex-1).hasClass('dark') ){
+                                $('#header.transparent-header:not(.sticky-header,.semi-transparent)').addClass('dark');
+                                $('#header.transparent-header.sticky-header,#header.transparent-header.semi-transparent.sticky-header').removeClass('dark');
+                                $('#header-wrap').removeClass('not-dark');
+                            } else {
+                                if( $('body').hasClass('dark') ) {
+                                    $('#header.transparent-header:not(.semi-transparent)').removeClass('dark');
+                                    $('#header.transparent-header:not(.sticky-header,.semi-transparent)').find('#header-wrap').addClass('not-dark');
+                                } else {
+                                    $('#header.transparent-header:not(.semi-transparent)').removeClass('dark');
+                                    $('#header-wrap').removeClass('not-dark');
+                                }
+                            }
+                            SEMICOLON.header.darkLogo();
+                        }
+                    });
+
+                }); //ready
+
+            </script>
+
+            <!-- END REVOLUTION SLIDER -->
+
+        </section>
 
 		<!-- Content
 		============================================= -->
@@ -721,7 +849,7 @@
 
 					<div class="row noleftmargin norightmargin bottommargin-lg common-height">
 						<div id="headquarters-map" class="col-md-8 col-sm-6 gmap hidden-xs"></div>
-						<div class="col-md-4 col-sm-6" style="background-color: #282828;">
+						<div class="col-md-4 col-sm-6" style="background-color: #F5F5F5;">
 							<div class="col-padding max-height">
 								<h3 class="font-body t400 ls1">Our Headquarters</h3>
 
@@ -835,16 +963,16 @@
 
 							<script type="text/javascript">
 
-								$("#template-contactform").validate({
+								jQuery("#template-contactform").validate({
 									submitHandler: function(form) {
-										$('.form-process').fadeIn();
-										$(form).ajaxSubmit({
+										jQuery('.form-process').fadeIn();
+										jQuery(form).ajaxSubmit({
 											target: '#contact-form-result',
 											success: function() {
-												$('.form-process').fadeOut();
-												$(form).find('.sm-form-control').val('');
-												$('#contact-form-result').attr('data-notify-msg', $('#contact-form-result').html()).html('');
-												SEMICOLON.widget.notifications($('#contact-form-result'));
+												jQuery('.form-process').fadeOut();
+												jQuery(form).find('.sm-form-control').val('');
+												jQuery('#contact-form-result').attr('data-notify-msg', jQuery('#contact-form-result').html()).html('');
+												SEMICOLON.widget.notifications(jQuery('#contact-form-result'));
 											}
 										});
 									}
@@ -899,16 +1027,16 @@
 									<button class="button button-border button-circle button-light topmargin-sm" type="submit">Subscribe Now</button>
 								</form>
 								<script type="text/javascript">
-									$("#widget-subscribe-form").validate({
+									jQuery("#widget-subscribe-form").validate({
 										submitHandler: function(form) {
-											$(form).find('.input-group-addon').find('.icon-email2').removeClass('icon-email2').addClass('icon-line-loader icon-spin');
-											$(form).ajaxSubmit({
+											jQuery(form).find('.input-group-addon').find('.icon-email2').removeClass('icon-email2').addClass('icon-line-loader icon-spin');
+											jQuery(form).ajaxSubmit({
 												target: '#widget-subscribe-form-result',
 												success: function() {
-													$(form).find('.input-group-addon').find('.icon-line-loader').removeClass('icon-line-loader icon-spin').addClass('icon-email2');
-													$('#widget-subscribe-form').find('.form-control').val('');
-													$('#widget-subscribe-form-result').attr('data-notify-msg', $('#widget-subscribe-form-result').html()).html('');
-													SEMICOLON.widget.notifications($('#widget-subscribe-form-result'));
+													jQuery(form).find('.input-group-addon').find('.icon-line-loader').removeClass('icon-line-loader icon-spin').addClass('icon-email2');
+													jQuery('#widget-subscribe-form').find('.form-control').val('');
+													jQuery('#widget-subscribe-form-result').attr('data-notify-msg', jQuery('#widget-subscribe-form-result').html()).html('');
+													SEMICOLON.widget.notifications(jQuery('#widget-subscribe-form-result'));
 												}
 											});
 										}

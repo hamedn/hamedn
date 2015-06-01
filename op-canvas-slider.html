@@ -36,89 +36,11 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>One Page HTML5 Video | Canvas</title>
+	<title>One Page Canvas Slider | Canvas</title>
 
 </head>
 
-<body class="stretched dark side-push-panel">
-
-	<div class="body-overlay"></div>
-
-	<div id="side-panel" class="dark">
-
-		<div id="side-panel-trigger-close"><a href="#"><i class="icon-line-cross"></i></a></div>
-
-		<div class="side-panel-wrap">
-
-			<div class="widget widget_links clearfix">
-
-				<h4>About Canvas</h4>
-
-				<div style="font-size: 14px; line-height: 1.7;">
-					<address style="line-height: 1.7;">
-						795 Folsom Ave, Suite 600<br>
-						San Francisco, CA 94107<br>
-					</address>
-
-					<div class="clear topmargin-sm"></div>
-
-					<abbr title="Phone Number">Phone:</abbr> (91) 8547 632521<br>
-					<abbr title="Fax">Fax:</abbr> (91) 11 4752 1433<br>
-					<abbr title="Email Address">Email:</abbr> info@canvas.com
-				</div>
-
-			</div>
-
-			<div class="widget quick-contact-widget clearfix">
-
-				<h4>Connect Socially</h4>
-
-				<a href="#" class="social-icon si-small si-colored si-facebook" title="Facebook">
-					<i class="icon-facebook"></i>
-					<i class="icon-facebook"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-twitter" title="Twitter">
-					<i class="icon-twitter"></i>
-					<i class="icon-twitter"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-github" title="Github">
-					<i class="icon-github"></i>
-					<i class="icon-github"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-pinterest" title="Pinterest">
-					<i class="icon-pinterest"></i>
-					<i class="icon-pinterest"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-forrst" title="Forrst">
-					<i class="icon-forrst"></i>
-					<i class="icon-forrst"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-linkedin" title="LinkedIn">
-					<i class="icon-linkedin"></i>
-					<i class="icon-linkedin"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-gplus" title="Google Plus">
-					<i class="icon-gplus"></i>
-					<i class="icon-gplus"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-instagram" title="Instagram">
-					<i class="icon-instagram"></i>
-					<i class="icon-instagram"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-flickr" title="Flickr">
-					<i class="icon-flickr"></i>
-					<i class="icon-flickr"></i>
-				</a>
-				<a href="#" class="social-icon si-small si-colored si-skype" title="Skype">
-					<i class="icon-skype"></i>
-					<i class="icon-skype"></i>
-				</a>
-
-			</div>
-
-		</div>
-
-	</div>
+<body class="stretched">
 
 	<!-- Document Wrapper
 	============================================= -->
@@ -126,7 +48,7 @@
 
 		<!-- Header
 		============================================= -->
-		<header id="header" class="full-header transparent-header static-sticky" data-sticky-offset="full" data-sticky-offset-negative="100">
+		<header id="header" class="full-header transparent-header dark static-sticky" data-sticky-class="not-dark" data-sticky-offset="full" data-sticky-offset-negative="100">
 
 			<div id="header-wrap">
 
@@ -154,8 +76,6 @@
 							<li><a href="#" data-href="#section-contact"><div>Contact</div></a></li>
 						</ul>
 
-						<div id="side-panel-trigger"><a href="#"><i class="icon-reorder"></i></a></div>
-
 					</nav><!-- #primary-menu end -->
 
 				</div>
@@ -164,38 +84,124 @@
 
 		</header><!-- #header end -->
 
-		<!-- Slider
-		============================================= -->
-		<section id="slider" class="slider-parallax full-screen force-full-screen">
+		<section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix">
 
-			<div class="full-screen force-full-screen dark section nopadding nomargin noborder ohidden">
-
-				<div class="container center">
-					<div class="vertical-middle ignore-header">
-						<div class="emphasis-title">
-							<h1>
-								<span class="text-rotater nocolor" data-separator="|" data-rotate="fadeIn" data-speed="6000">
-									<span class="t-rotate t700 font-body opm-large-word">canvas.|different.|creative.|digital.|vision.</span>
-								</span>
-							</h1>
+			<div class="swiper-container swiper-parent">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide dark" style="background-image: url('images/page/slider-1.jpg');">
+						<div class="container clearfix">
+							<div class="slider-caption slider-caption-center">
+								<h2 data-caption-animate="fadeInUp">A Different Canvas</h2>
+								<p data-caption-animate="fadeInUp" data-caption-delay="200">Flexibility to the core &amp; different in every aspect. Meet the new Canvas. Creative &amp; Efficiently Powerful.</p>
+							</div>
 						</div>
-						<a href="#" class="button button-border button-light button-rounded" data-scrollto="#section-works" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">View our Works</a>
+					</div>
+					<div class="swiper-slide dark">
+						<div class="container clearfix">
+							<div class="slider-caption slider-caption-center">
+								<h2 data-caption-animate="fadeInUp">Beautifully Flexible</h2>
+								<p data-caption-animate="fadeInUp" data-caption-delay="200">Looks beautiful &amp; ultra-sharp on every device &amp; adapts well to your custom vision.</p>
+							</div>
+						</div>
+						<div class="video-wrap">
+							<video poster="images/videos/1.jpg" preload="auto" loop autoplay muted>
+								<source src='images/videos/1.webm' type='video/webm' />
+								<source src='images/videos/1.mp4' type='video/mp4' />
+							</video>
+							<div class="video-overlay" style="background-color: rgba(0,0,0,0.2);"></div>
+						</div>
+					</div>
+					<div class="swiper-slide dark" style="background-image: url('images/page/slider-2.jpg'); background-position: center top;">
+						<div class="container clearfix">
+							<div class="slider-caption">
+								<h2 data-caption-animate="fadeInUp">Great Performance</h2>
+								<p data-caption-animate="fadeInUp" data-caption-delay="200">You'll be surprised to see the Final Results of your Creation &amp; would crave for more.</p>
+							</div>
+						</div>
 					</div>
 				</div>
-
-				<div class="video-wrap">
-                    <video id="slide-video" poster="images/videos/1.jpg" preload="auto" loop muted autoplay>
-                        <source src='images/videos/1.webm' type='video/webm' />
-                        <source src='images/videos/1.mp4' type='video/mp4' />
-                    </video>
-                    <div class="video-overlay" style="background-color: rgba(0,0,0,0.2);"></div>
-                </div>
-
-				<a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="65" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
-
+				<div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
+				<div id="slider-arrow-right"><i class="icon-angle-right"></i></div>
 			</div>
 
-		</section><!-- #slider end -->
+			<script>
+				jQuery(document).ready(function($){
+					var swiperSlider = new Swiper('.swiper-parent',{
+						paginationClickable: false,
+						slidesPerView: 1,
+						grabCursor: true,
+						loop: true,
+						onSwiperCreated: function(swiper){
+							$('[data-caption-animate]').each(function(){
+								var $toAnimateElement = $(this);
+								var toAnimateDelay = $(this).attr('data-caption-delay');
+								var toAnimateDelayTime = 0;
+								if( toAnimateDelay ) { toAnimateDelayTime = Number( toAnimateDelay ) + 750; } else { toAnimateDelayTime = 750; }
+								if( !$toAnimateElement.hasClass('animated') ) {
+									$toAnimateElement.addClass('not-animated');
+									var elementAnimation = $toAnimateElement.attr('data-caption-animate');
+									setTimeout(function() {
+										$toAnimateElement.removeClass('not-animated').addClass( elementAnimation + ' animated');
+									}, toAnimateDelayTime);
+								}
+							});
+							SEMICOLON.slider.swiperSliderMenu();
+						},
+						onSlideChangeStart: function(swiper){
+							$('[data-caption-animate]').each(function(){
+								var $toAnimateElement = $(this);
+								var elementAnimation = $toAnimateElement.attr('data-caption-animate');
+								$toAnimateElement.removeClass('animated').removeClass(elementAnimation).addClass('not-animated');
+							});
+							SEMICOLON.slider.swiperSliderMenu();
+						},
+						onSlideChangeEnd: function(swiper){
+							$('#slider').find('.swiper-slide').each(function(){
+								if($(this).find('video').length > 0) { $(this).find('video').get(0).pause(); }
+								if($(this).find('.yt-bg-player').length > 0) { $(this).find('.yt-bg-player').pauseYTP(); }
+							});
+							$('#slider').find('.swiper-slide:not(".swiper-slide-active")').each(function(){
+								if($(this).find('video').length > 0) {
+									if($(this).find('video').get(0).currentTime != 0 ) $(this).find('video').get(0).currentTime = 0;
+								}
+								if($(this).find('.yt-bg-player').length > 0) {
+									$(this).find('.yt-bg-player').getPlayer().seekTo( $(this).find('.yt-bg-player').attr('data-start') );
+								}
+							});
+							if( $('#slider').find('.swiper-slide.swiper-slide-active').find('video').length > 0 ) { $('#slider').find('.swiper-slide.swiper-slide-active').find('video').get(0).play(); }
+							if( $('#slider').find('.swiper-slide.swiper-slide-active').find('.yt-bg-player').length > 0 ) { $('#slider').find('.swiper-slide.swiper-slide-active').find('.yt-bg-player').playYTP(); }
+
+							$('#slider .swiper-slide.swiper-slide-active [data-caption-animate]').each(function(){
+								var $toAnimateElement = $(this);
+								var toAnimateDelay = $(this).attr('data-caption-delay');
+								var toAnimateDelayTime = 0;
+								if( toAnimateDelay ) { toAnimateDelayTime = Number( toAnimateDelay ) + 300; } else { toAnimateDelayTime = 300; }
+								if( !$toAnimateElement.hasClass('animated') ) {
+									$toAnimateElement.addClass('not-animated');
+									var elementAnimation = $toAnimateElement.attr('data-caption-animate');
+									setTimeout(function() {
+										$toAnimateElement.removeClass('not-animated').addClass( elementAnimation + ' animated');
+									}, toAnimateDelayTime);
+								}
+							});
+						}
+					});
+
+					$('#slider-arrow-left').on('click', function(e){
+						e.preventDefault();
+						swiperSlider.swipePrev();
+					});
+
+					$('#slider-arrow-right').on('click', function(e){
+						e.preventDefault();
+						swiperSlider.swipeNext();
+					});
+				});
+			</script>
+
+			<a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="65" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+
+		</section>
 
 		<!-- Content
 		============================================= -->
@@ -721,7 +727,7 @@
 
 					<div class="row noleftmargin norightmargin bottommargin-lg common-height">
 						<div id="headquarters-map" class="col-md-8 col-sm-6 gmap hidden-xs"></div>
-						<div class="col-md-4 col-sm-6" style="background-color: #282828;">
+						<div class="col-md-4 col-sm-6" style="background-color: #F5F5F5;">
 							<div class="col-padding max-height">
 								<h3 class="font-body t400 ls1">Our Headquarters</h3>
 
