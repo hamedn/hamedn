@@ -93,7 +93,7 @@ h6 {
 h5,
 h6 { margin-bottom: 20px; }
 
-h1 { font-size: 36px; }
+h1 { font-size: 60px; }
 
 h2 { font-size: 30px; }
 
@@ -12173,4 +12173,3 @@ body:not(.no-transition) #wrapper,
 	margin:0!important;
 	padding:0!important
 }
-
