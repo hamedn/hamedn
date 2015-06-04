@@ -136,7 +136,7 @@ body.side-push-panel.side-panel-open.stretched #header .container { right: 300px
 ---------------------------------------------------------------------------- */
 
 .page-section {
-	padding: 0px 0; 
+	padding: 0px 0;
 }
 
 
@@ -608,6 +608,20 @@ textarea.border-form-control {
 /* ----------------------------------------------------------------------------
 	Responsive
 ---------------------------------------------------------------------------- */
+
+@media (max-height:480px) {
+	.img-circle {
+		height:75%;
+		width:75%;
+	}
+}
+
+@media (max-width:500px) {
+	.textbla {
+		height:145px;
+	}
+
+}
 
 
 @media (max-width: 991px) {
