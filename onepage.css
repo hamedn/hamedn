@@ -534,6 +534,13 @@ textarea.border-form-control {
 .device-xxs .videoplay-on-hover .vertical-middle h2 { font-size: 26px; }
 
 
+.centerrr {
+	text-align: center;
+	dislay:inline-block;
+
+}
+
+
 /* Hero Video Play Event
 ---------------------------------------------------------------------------- */
 

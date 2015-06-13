@@ -387,6 +387,14 @@ span.middot {
 	overflow: hidden;
 }
 
+.sectionwhite {
+	position: relative;
+	margin: 20px 0;
+	padding: 20px 0;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+
 .parallax {
 	background-color: transparent;
 	background-attachment: fixed;
