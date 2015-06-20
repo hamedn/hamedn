@@ -3501,6 +3501,7 @@ body.device-touch.device-xxs .portfolio-notitle .portfolio-desc { display: none 
 .portfolio-nomargin .portfolio-item .portfolio-image img {
 	width: 284px;
 	height: 213px;
+	padding: 5px;
 }
 
 .portfolio-nomargin .portfolio-desc { padding: 15px 10px 15px; }
