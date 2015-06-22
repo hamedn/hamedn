@@ -33,18 +33,28 @@
 
 	<!-- External JavaScripts
 	============================================= -->
+	
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
 	<script type="text/javascript" src="typed.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
 
 
 	<script>
-  $(function(){
-      $(".typed").typed({
-        strings: ["Entrepreneur", "Computer Scientist", "Wrestler", "Educator", "Iranian-American", "Game Developer"]
-      });
-  });
-</script>
+	  $(function(){
+		  $(".typed").typed({
+			strings: ["Entrepreneur", "Computer Scientist", "Wrestler", "Educator", "Iranian-American", "Game Developer"]
+		  });
+		  $(".nav-items").click(function(e) {
+		  	if($(window).width() <= 768) {
+		  		$("#lol-menu").toggleClass("show");
+		  		$("html,body").scrollTo((($($(this).attr("lol-data")).offset().top) - $("#header-wrap").height()), 600);
+		  	} else {
+		  		$("html,body").scrollTo((($($(this).attr("lol-data")).offset().top) - $("#header-wrap").height()), 600);
+		  	}
+		  });
+	  });
+	</script>
 
 
 	<!-- Document Title
@@ -84,11 +94,11 @@
 					============================================= -->
 					<nav id="primary-menu">
 
-						<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
-							<li><a href="#" data-href="#wrapper"><div>Home</div></a></li>
-							<li><a href="#" data-href="#section-about"><div>About</div></a></li>
-							<li><a href="#" data-href="#section-portfolio"><div>Portfolio</div></a></li>
-							<li><a href="#" data-href="#footer"><div>Contact</div></a></li>
+						<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="65" id="lol-menu">
+							<li><a href="#" class="nav-items" lol-data="#wrapper"><div>Home</div></a></li>
+							<li><a href="#" class="nav-items" lol-data="#about"><div>About</div></a></li>
+							<li><a href="#" class="nav-items" lol-data="#portfolio"><div>Portfolio</div></a></li>
+							<li><a href="#" class="nav-items" lol-data="#footer"><div>Contact</div></a></li>
 						</ul>
 
 
@@ -140,9 +150,9 @@
 							<div class="centerblock">
 							<h1 class="divcenter font-body">Hi. I'm Hamed!</h2>
 
-					                <div class="col-md-12">
-					                    <img src="photo.JPG" class="img-responsive divcenter img-circle" alt="">
-					                </div>
+									<div class="col-md-12">
+										<img src="photo.JPG" class="img-responsive divcenter img-circle" alt="">
+									</div>
 
 
 
@@ -164,7 +174,7 @@
 
 				</div>
 
-				<div id="section-about" class="page-section notoppadding">
+				<div id="about" class="page-section notoppadding">
 
 					<div class="section nomargin" style="padding:10px;">
 						<div class="container clearfix">
