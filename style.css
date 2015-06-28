@@ -1073,8 +1073,8 @@ body.stretched #header.full-header .container {
 	transition: line-height .4s ease;
 }
 
-#primary-menu > ul > li:hover a,
-#primary-menu > ul > li.current a { color: #1ABC9C; }
+#primary-menu > ul > li:hover a {color: #1ABC9C}
+#primary-menu > ul > li.current a { }
 
 #primary-menu > ul > li.sub-menu > a > div { }
 
