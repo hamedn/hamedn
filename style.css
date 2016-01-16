@@ -1497,7 +1497,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #primary-menu.style-2.cent
 @media (min-width: 992px) {
 
 .overlay-menu:not(.top-search-open) #primary-menu-trigger {
-	opacity: 1;
+	opacity:0;
 	pointer-events: auto;
 	left: auto;
 	right: 75px;
