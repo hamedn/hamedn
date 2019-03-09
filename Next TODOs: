@@ -1,0 +1,23 @@
+1. Calculate new census values (Fall 2017/census_new.csv)
+2. Calculate environment features (Modeling/zip_features_new.csv)
+    *Missing: older, food environment data
+3. Merge them into final table using Calculate User Features
+	****Missing: Food Categories
+
+
+zip_features_final.csv
+
+
+
+
+Next TODOs:
+
+* Run Calculate User Features to get new table of soda, fastfood, etc.
+* Groupby common_user_id and export and zip table and user table
+
+
+* Go through rest of the pipeline 
+	--> Check to make sure we have environmental data for all of the zipcodes
+	* Make sure to merge in newly calculated education measure
+
+
